@@ -1,0 +1,21 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist/",
+    "test" : "mocha"
+  },
+  "keywords": [
+    "platzom"
+  ],
+  "author": "Víctor Gutiérrez <v.gutierrezrivas@gmail.com> (https://github.com/Titincillo)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
